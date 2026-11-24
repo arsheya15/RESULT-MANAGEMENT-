@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Result Management 💜</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>💜 Student Result Portal ✨</h1>
+        <p>♡ Your academic journey, beautifully organised ♡</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <div class="welcome">
+            <h2>🌷 Welcome, Student! 🌷</h2>
+            <p>Enter your details and marks to discover your results.</p>
+            <p>✨ Believe in yourself and keep shining! 💖</p>
+        </div>
+
+        <!-- Result Form -->
+        <section class="result-form">
+
+            <h2>🎀 Student Information 🎀</h2>
+
+            <form id="resultForm">
+
+                <label>Student Name 💗</label>
+                <input type="text" id="studentName"
+                    placeholder="Enter your name" required>
+
+                <label>Roll Number 💜</label>
+                <input type="text" id="rollNumber"
+                    placeholder="Enter roll number" required>
+
+                <h2>📚 Enter Your Subject Marks</h2>
+
+                <label>Mathematics</label>
+                <input type="number" id="math"
+                    placeholder="Marks out of 100"
+                    min="0" max="100" required>
+
+                <label>Computer Science</label>
+                <input type="number" id="computer"
+                    placeholder="Marks out of 100"
+                    min="0" max="100" required>
+
+                <label>Physics</label>
+                <input type="number" id="physics"
+                    placeholder="Marks out of 100"
+                    min="0" max="100" required>
+
+                <label>Chemistry</label>
+                <input type="number" id="chemistry"
+                    placeholder="Marks out of 100"
+                    min="0" max="100" required>
+
+                <label>English</label>
+                <input type="number" id="english"
+                    placeholder="Marks out of 100"
+                    min="0" max="100" required>
+
+                <button type="submit">
+                    💜 Calculate My Result ✨
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- Result Display -->
+        <section class="result-box" id="resultBox">
+
+            <h2>🌸 Your Result 🌸</h2>
+
+            <div id="resultDetails">
+                <p>Your result will appear here! 💖</p>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with 💜 and ✨ | Student Result Portal</p>
+        <p>♡ Dream Big • Work Hard • Shine Bright ♡</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
